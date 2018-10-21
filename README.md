@@ -1,6 +1,6 @@
 # Time-Delayed-Grand_Canyon_Plot
 
-Version of the Grand Canyon Plot over showing the progression over time of a canyon forming with a river running through it.
+Version of the Grand Canyon Plot showing the progression over time of a canyon forming with a river running through it.
 
 ![grand_canyon_1](https://user-images.githubusercontent.com/35905246/47262490-f89de080-d4b7-11e8-9d05-27c3107e7378.png)
 ![grand_canyon_2](https://user-images.githubusercontent.com/35905246/47262491-fa67a400-d4b7-11e8-8983-f8df262226f5.png)
