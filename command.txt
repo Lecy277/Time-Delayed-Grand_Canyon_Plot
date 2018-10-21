@@ -1,0 +1,52 @@
+set view 65, 8,1.20,1.05
+set yrange [0:75]
+set xrange [0:75]
+set zrange [0:75]
+set xlabel "RED Line Shows DIJKSTRA'S"
+set format y "" 
+unset xtics
+unset ztics
+set hidden3d
+set border 4095 front linetype -1 linewidth 1.05
+set terminal pngcairo  transparent enhanced font "arial,10" fontscale 1.0 size 600, 400
+set cblabel "color scale" 
+set pm3d implicit at s 
+set palette defined ( 0 "dark-blue", 1 "sienna4",2 "sienna4", 3 "sienna4", 4 "dark-green")
+set output 'Grand_Canyon_1.png'
+splot 'Triangles11.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles31.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'Triangles21.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles41.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'TrianglesDyk.dat'using 1:2:3 notitle with lines lc rgb "red",'Triangles51.dat'using 1:2:3 notitle with lines lc rgb "blue"
+set output 'Grand_Canyon_2.png'
+splot 'Triangles12.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles32.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'Triangles22.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles42.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'TrianglesDyk.dat'using 1:2:3 notitle with lines lc rgb "red",'Triangles52.dat'using 1:2:3 notitle with lines lc rgb "blue"
+set output 'Grand_Canyon_3.png'
+splot 'Triangles13.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles33.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'Triangles23.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles43.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'TrianglesDyk.dat'using 1:2:3 notitle with lines lc rgb "red",'Triangles53.dat'using 1:2:3 notitle with lines lc rgb "blue"
+set output 'Grand_Canyon_4.png'
+splot 'Triangles14.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles34.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'Triangles24.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles44.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'TrianglesDyk.dat'using 1:2:3 notitle with lines lc rgb "red",'Triangles54.dat'using 1:2:3 notitle with lines lc rgb "blue"
+set output 'Grand_Canyon_5.png'
+splot 'Triangles15.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles35.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'Triangles25.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles45.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'TrianglesDyk.dat'using 1:2:3 notitle with lines lc rgb "red",'Triangles55.dat'using 1:2:3 notitle with lines lc rgb "blue"
+set output 'Grand_Canyon_6.png'
+splot 'Triangles16.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles36.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'Triangles26.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles46.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'TrianglesDyk.dat'using 1:2:3 notitle with lines lc rgb "red",'Triangles56.dat'using 1:2:3 notitle with lines lc rgb "blue"
+set output 'Grand_Canyon_7.png'
+splot 'Triangles17.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles37.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'Triangles27.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles47.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'TrianglesDyk.dat'using 1:2:3 notitle with lines lc rgb "red",'Triangles57.dat'using 1:2:3 notitle with lines lc rgb "blue"
+set output 'Grand_Canyon_8.png'
+splot 'Triangles18.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles38.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'Triangles28.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles48.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'TrianglesDyk.dat'using 1:2:3 notitle with lines lc rgb "red",'Triangles58.dat'using 1:2:3 notitle with lines lc rgb "blue"
+set output 'Grand_Canyon_9.png'
+splot 'Triangles19.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles39.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'Triangles29.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles49.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'TrianglesDyk.dat'using 1:2:3 notitle with lines lc rgb "red",'Triangles59.dat'using 1:2:3 notitle with lines lc rgb "blue"
+set output 'Grand_Canyon_10.png'
+splot 'Triangles110.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles310.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'Triangles210.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles410.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'TrianglesDyk.dat'using 1:2:3 notitle with lines lc rgb "red",'Triangles510.dat'using 1:2:3 notitle with lines lc rgb "blue"
+set output 'Grand_Canyon_11.png'
+splot 'Triangles111.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles311.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'Triangles211.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles411.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'TrianglesDyk.dat'using 1:2:3 notitle with lines lc rgb "red",'Triangles511.dat'using 1:2:3 notitle with lines lc rgb "blue"
+set output 'Grand_Canyon_12.png'
+splot 'Triangles112.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles312.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'Triangles212.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles412.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'TrianglesDyk.dat'using 1:2:3 notitle with lines lc rgb "red",'Triangles512.dat'using 1:2:3 notitle with lines lc rgb "blue"
+set output 'Grand_Canyon_13.png'
+splot 'Triangles113.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles313.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'Triangles213.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles413.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'TrianglesDyk.dat'using 1:2:3 notitle with lines lc rgb "red",'Triangles513.dat'using 1:2:3 notitle with lines lc rgb "blue"
+set output 'Grand_Canyon_14.png'
+splot 'Triangles114.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles314.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'Triangles214.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles414.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'TrianglesDyk.dat'using 1:2:3 notitle with lines lc rgb "red",'Triangles514.dat'using 1:2:3 notitle with lines lc rgb "blue"
+set output 'Grand_Canyon_15.png'
+splot 'Triangles115.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles315.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'Triangles215.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles415.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'TrianglesDyk.dat'using 1:2:3 notitle with lines lc rgb "red",'Triangles515.dat'using 1:2:3 notitle with lines lc rgb "blue"
+set output 'Grand_Canyon_16.png'
+splot 'Triangles116.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles316.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'Triangles216.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles416.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'TrianglesDyk.dat'using 1:2:3 notitle with lines lc rgb "red",'Triangles516.dat'using 1:2:3 notitle with lines lc rgb "blue"
+set output 'Grand_Canyon_17.png'
+splot 'Triangles117.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles317.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'Triangles217.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles417.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'TrianglesDyk.dat'using 1:2:3 notitle with lines lc rgb "red",'Triangles517.dat'using 1:2:3 notitle with lines lc rgb "blue"
+set output 'Grand_Canyon_18.png'
+splot 'Triangles118.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles318.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'Triangles218.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles418.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'TrianglesDyk.dat'using 1:2:3 notitle with lines lc rgb "red",'Triangles518.dat'using 1:2:3 notitle with lines lc rgb "blue"
+set output 'Grand_Canyon_19.png'
+splot 'Triangles119.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles319.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'Triangles219.dat'using 1:2:3 notitle with lines lc rgb "green",'Triangles419.dat'using 1:2:3 notitle with lines lc rgb "sandybrown",'TrianglesDyk.dat'using 1:2:3 notitle with lines lc rgb "red",'Triangles519.dat'using 1:2:3 notitle with lines lc rgb "blue"
